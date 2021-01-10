@@ -9,11 +9,10 @@ const routes: Routes = [
     component: HomePageComponent
   },
   {
-    path: 'book/:id',
+    path: 'curso/:id',
     component: CursoDetailPageComponent
   }
- ];
- 
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

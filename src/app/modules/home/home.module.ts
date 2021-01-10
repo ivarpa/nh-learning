@@ -6,6 +6,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { CursoDetailPageComponent } from './pages/curso-detail-page/curso-detail-page.component';
 
 
+
 @NgModule({
   declarations: [HomePageComponent, CursoDetailPageComponent],
   imports: [

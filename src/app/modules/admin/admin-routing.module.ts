@@ -4,11 +4,11 @@ import { AddCursoPageComponent } from './pages/add-curso-page/add-curso-page.com
 
 const routes: Routes = [
   {
-    path: 'add-book',
+    path: 'add-curso',
     component: AddCursoPageComponent
   }
- ];
- 
+];
+
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
